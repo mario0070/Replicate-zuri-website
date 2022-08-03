@@ -1,7 +1,13 @@
+@import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.516);
 }
 
 #navbar{
@@ -12,6 +18,7 @@
     padding-top: 2em;
     padding-bottom: 1em;
     background-color: white;
+    z-index: 10;
 }
 
 #logo{
@@ -87,11 +94,12 @@ main{
 }
 
 #sec2 h1{
-    font-size: 3.6em;
+    font-size: 3.3em;
     text-align: center;
     margin-right: 5em;
     margin-bottom: 0em;
     width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #sec2 span{
@@ -120,4 +128,563 @@ main{
     width: 200px;
     margin-left: 22em;
     margin-top: -10em;
+}
+
+#wire{
+    margin-left: 18em;
+    width: 100px;
+    margin-top: -5em;
+}
+
+#ads2{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgb(154, 150, 150,0.5);
+    border-bottom: 1px solid rgb(154, 150, 150,0.5);
+    padding-top: 3em;
+    padding-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: -6em;
+}
+
+#ads2 img{
+    width: 200px;
+    height: 200px;
+    margin-top: -3em;
+}
+
+#ads2 h3{
+    font-size: 1.8em;
+    width: 30%;
+}
+
+#ads2 p{
+    width: 30%;
+    font-size: 1.8em;
+}
+
+#ads2 p a{
+    color: green;
+}
+
+#ads4{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 6em; */
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 2em;
+}
+
+#ads4 img{
+    width: 200px;
+    height: 200px;
+    margin-right: 8em;
+}
+
+#ads4 h2{
+    width: 50%;
+    font-size: 2em;
+    line-height: 45px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#ads4 h2 a {
+    color: rgb(239, 19, 19,0.8);
+    text-decoration: none;
+}
+
+#ads3 #img{
+    margin-left: 25em;
+    margin-top: 2em;
+    height: 100px;
+}
+
+#ads4{
+    padding-bottom: 4em;
+}
+
+#ads5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+#ads5 #card1 img,#ads5 #card2 img,#ads5 #card3 img,#ads5 #card4 img,#ads5 #card5 img,#ads6 #card2 img,#ads5 #card11 img{
+    width:90px;
+    position: absolute;
+    right: 0;
+    margin-left: 12.1em;
+ 
+}
+
+#ads5 #card2 img,#ads5 #card3 img,#ads5 #card11 img{
+   margin-top: -3.1em;
+}
+
+#card11{
+    position: relative;
+    height: 27em;
+    border: 1px solid rgb(81, 76, 76,0.3);
+    width: 30%;
+    padding: 3em;
+    border-radius: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: .1em .1em 1em black;
+}
+
+#card11 h1{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+#card11 h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#card11 p{
+    font-size: 1.1em;
+}
+
+#card1{
+    position: relative;
+    background-color:rgb(239, 19, 19,0.8) ;
+    color: white;
+    height: 27em;
+    width: 30%;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+    border-radius: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: .1em .1em 1em black;
+}
+
+#card1 h1{
+    margin-top: 1em;
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+#card1 h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#card1 p{
+    font-size: 1.1em;
+}
+
+#card2{
+    position: relative;
+    height: 27em;
+    border: 1px solid rgb(81, 76, 76,0.3);
+    width: 30%;
+    padding: 3em;
+    border-radius: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: .1em .1em 1em black;
+}
+
+#card2 h1{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+#card2 h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#card2 p{
+    font-size: 1.1em;
+}
+
+#card3{
+    position: relative;
+    height: 27em;
+    border: 1px solid rgb(81, 76, 76,0.3);
+    width: 30%;
+    padding: 3em;
+    border-radius: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: .1em .1em 1em black;
+}
+
+#card3 h1{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+#card3 h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#card3 p{
+    font-size: 1.1em;
+}
+
+.ads6{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(239, 19, 19,0.8) ;
+    margin-top: 4em;
+}
+
+.ads6 .right img{
+    width: 600px;
+    height: 500px;
+    margin-right: 3em;
+    margin-top: 2em;
+}
+
+.ads6{
+    color: white;
+    padding-left: 3em;
+    font-size: 1.5em;
+}
+
+.ads6 .left{
+    width: 17em;
+    margin-bottom: 2em;
+}
+
+.ads6 .left .p1{
+    margin-bottom: 2em;
+    margin-top: -1em;
+}
+
+.ads6 .left .p2{
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.wire5{
+    width: 80px;
+    height: 80px;
+    margin-left: 12em;
+    margin-top: 2em;
+}
+
+.ads6 .left .btn-enr{
+    background-color: white;
+    padding: .4em;
+    border: none;
+    width: 7em;
+    color: red;
+    border-radius: 1em;
+    font-size: .8em;
+    margin-bottom: 1.4em;
+}
+
+.btn button{
+    border: 3px solid white;
+    width: 13em;
+    color: white;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    padding: .2em;
+    border-radius: 4em;
+    background-color:rgb(239, 19, 19,0.1) ;
+}
+
+.btn button img{
+    height: 40px;
+}
+
+.ads7{
+    width: 50%;
+    margin-top: 5em;
+    margin-left: 4em;
+    margin-bottom: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ads7 p{
+    color: red;
+    font-size: 1.5em;
+}
+
+.ads7 h1{
+    font-size: 3em;
+}
+
+.ads7 img{
+    margin-left: 26em;
+    width: 150px;
+    height: 150px;
+}
+
+.ads8{
+    display: flex;
+    justify-content: space-between;
+    margin: 3em;
+}
+
+.cards{
+    width: 40%;
+    border: 2px solid grey;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 3em;
+    box-shadow: .1em .1em 1em black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards h1{
+    font-size: 1.4em;
+    margin-bottom: .5em;
+}
+
+.cards img{
+    height: 40px;
+    margin: .5em;
+}
+
+.cards p{
+    margin-top: .5em;
+    font-size: 1.2em;
+}
+
+.btn2-enr{
+    margin-left: 27em;
+    padding: .6em;
+    background-color: rgb(239, 19, 19,0.8);
+    color: white;
+    border-radius: 2em;
+    width: 15%;
+    border: none;
+    margin-top: 2em;
+    font-size: 1.1em;
+    margin-bottom: 5em;
+    margin-top: -1.4em;
+}
+
+.ads9{
+    border-bottom: 2px solid rgb(148, 143, 143,0.4);
+    margin-bottom: 3em;
+    margin: 4em;
+}
+
+.ads10 h1,.ads10 h4{
+    text-align: center;
+    font-size: 1.9em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ads10{
+    border-bottom: 1.5px solid rgb(156, 148, 148,0.5);
+    margin: 4em;
+}
+
+.ads10 h4{
+    color: red;
+
+}
+
+.ads10 .table p{
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-bottom: .1em;
+}
+
+.ads10 .table{
+    margin-top: 4em;
+    margin-bottom: 3em;
+    width: 75%;
+    margin-left: 9em;
+    margin-right: 5em;
+    border: 1.5px solid rgb(156, 148, 148,0.5);
+    /* padding: 2em; */
+}
+
+.ads10 .table .table-cont{
+    padding: 1.6em;
+    border-bottom: 1.5px solid rgb(156, 148, 148,0.5) ;
+}
+
+.ads10 .table .table-cont span{
+    display: none;
+    transition: 1s;
+}
+
+#span.valid{
+    display: block;
+    transition: 1s;
+}
+
+.tweet{
+    display: flex;
+    margin-left: 15em;
+    margin-bottom: 3em;
+    font-size: 1.5em;
+}
+
+.tweet button{
+    margin-left: 1.4em;
+    padding: .9em;
+    background-color: rgb(239, 19, 19,0.8);
+    color: white;
+    border-radius: 2em;
+    width: 25%;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ads11 .img img{
+    height: 120px;
+    width: 120px;
+    margin-left: 15em;
+}
+
+.ads11 .text{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ads11 .text p{
+    color: red;
+    margin-bottom: .3em;
+}
+
+.ads11 .text h1{
+    margin-bottom: .3em;
+}
+
+.ads11 .star{
+    right: 0;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    margin-top: -4em;
+    margin-right: 6em;
+}
+
+.ads12{
+    display: flex;
+    justify-content: space-around;
+    margin: 4em;
+}
+
+.front{
+    box-shadow: 1em 1em 1em rgb(248, 209, 209);
+    height: 120vh;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    padding: 3em;
+    margin: 1em;
+    width: 90%;
+    border-radius: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.back{
+    width: 115%;
+    z-index: 1;
+}
+
+.front h3{
+    margin-top: 1em;
+}
+
+.front a{
+    color: white;
+}
+
+.front li{
+    line-height: 25px;
+    font-size: .8em;
+}
+
+.front span{
+    display: block;
+    font-size: .8em;
+    line-height: 25px;
+    
+}
+
+.fr,.bk{
+    margin-bottom: 1em;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    margin-top: -10em;
+    margin-right: 4em;
+}
+
+.ads13{
+    background-color:rgb(239, 19, 19,0.8) ;
+    margin: 8em;
+    border-radius: 1em;
+    padding: 5em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ads13 p{
+    color: white;
+    font-size: 1.3em;
+}
+
+.ads13 h1{
+    font-size: 4em;
+    width: 80%;
+    margin-left: 1em;
+    margin-bottom: .5em;
+    color: white;
+}
+
+.ads13 button{
+    background-color: white;
+    color: red;
+    padding: .5em;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 1em;
+    width: 20%;
+}
+
+.ads13 .img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    margin-left: 10em;
+    margin-top: -2em;
+}
+
+.ads13 .imgs{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    margin-right: 8em;
 }
