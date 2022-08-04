@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+@import url('http://fonts.cdnfonts.com/css/graphik');
 
 *{
     margin: 0;
@@ -8,6 +8,12 @@
 
 body{
     background-color: rgba(255, 255, 255, 0.516);
+    scroll-behavior: smooth;
+}
+
+
+html{
+    scroll-behavior: smooth;
 }
 
 #navbar{
@@ -492,7 +498,14 @@ main{
 .ads10 .table p{
     font-weight: 900;
     font-size: 1.5em;
-    margin-bottom: .1em;
+}
+
+.plus{
+    position: absolute;
+    right: 0;
+    margin-right: 1em;
+    margin-top: -1.4em;
+    transition: 1s;
 }
 
 .ads10 .table{
@@ -502,23 +515,55 @@ main{
     margin-left: 9em;
     margin-right: 5em;
     border: 1.5px solid rgb(156, 148, 148,0.5);
-    /* padding: 2em; */
+}
+
+.ads10 .table .table-cont p{
+    margin-bottom: .5em;
 }
 
 .ads10 .table .table-cont{
+    position: relative;
     padding: 1.6em;
     border-bottom: 1.5px solid rgb(156, 148, 148,0.5) ;
 }
 
 .ads10 .table .table-cont span{
     display: none;
-    transition: 1s;
 }
 
-#span.valid{
-    display: block;
-    transition: 1s;
+.plus:active{
+    transform: rotate(360deg);
+    cursor: pointer;
+    transition: -3s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .tweet{
     display: flex;
@@ -536,23 +581,6 @@ main{
     width: 25%;
     border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .ads11 .img img{
     height: 120px;
@@ -688,3 +716,21 @@ main{
     right: 0;
     margin-right: 8em;
 }
+
+.ads14{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3em;
+    margin-top: -2em;
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ads14 img{
+    margin-bottom: 1em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
