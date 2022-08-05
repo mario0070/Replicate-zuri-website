@@ -232,7 +232,6 @@ nav{
 .ads4{
     background-color: rgb(252, 243, 233);
     margin-top: 8em;
-    margin-bottom: 5em;
 }
 
 .ads4 .sec1{
@@ -258,16 +257,16 @@ nav{
     background-color: white;
     padding: 3em;
     margin: 1em;
-    height: 45vh;
-    border-radius: 1em;
+    height: 40vh;
+    border-bottom-right-radius: 1em;
 }
 
 .ads4 .sec3 .cards{
     background-color: white;
     padding: 3em;
     margin: 1em;
-    height: 45vh;
-    border-radius: 1em;
+    height: 40vh;
+    border-bottom-right-radius: 1em;
 }
 
 .ads4 .sec3 {
@@ -284,4 +283,68 @@ nav{
 .cards img{
     margin-left: 5em;
     margin-bottom: 2em;
+}
+
+.ads4 .cards:hover{
+    background-color: black;
+    color: white;
+}
+
+.ads4 .btn1{
+    background-color: red;
+    padding: .6em;
+    color: white;
+    border: none;
+    width: 9em;
+    font-size: 1em;
+    border-bottom-right-radius: .8em;
+    margin-bottom: 3em;
+}
+
+.ads4 .btn2{
+    background-color: rgb(52, 51, 51);
+    padding: .6em;
+    color: white;
+    border: none;
+    width: 9em;
+    font-size: 1em;
+    border-bottom-right-radius: .8em;
+    margin-left: .5em;
+    margin-bottom: 3em;
+}
+
+.ads4 .btn{
+    margin-left: 28em;
+}
+
+.ads5{
+    background-color: black;
+    color: white;
+    padding: 4em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ads5 .left img{
+    padding-bottom: 3em;
+}
+
+.ads5 .right img{
+    width: 35px;
+    height: 35px;
+    margin-right: 1em;
+    margin-bottom: 3em;
+}
+
+.ads5 .right p{
+    float: right;
+    margin-right: .7em;
+}
+
+.ads4 .sec1 span{
+    color: red;
+}
+
+button:hover{
+    cursor: pointer;
 }
